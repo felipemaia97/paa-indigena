@@ -4,7 +4,7 @@
     ],
     "compilerOptions": {
         "strict": true,
-        "esModuleInterop": true,
+        "esModuleInterop": false,
         "lib": [
             "dom",
             "es2015"
