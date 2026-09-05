@@ -1,4 +1,5 @@
-import React, { useState, useMemo, useEffect } from "react";
+import * as React from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Truck,
   Users,
