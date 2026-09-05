@@ -42,11 +42,11 @@ const getSupabase = () => {
 };
 
 // Formatação para Real Brasileiro (BRL)
-const formatMoney = (val) =>
+const formatMoney = (val: any) =>
   new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(
     val || 0
   );
-const formatDate = (dateStr) => {
+const formatDate = (dateStr: any) => {
   if (!dateStr) return "";
   const [year, month, day] = dateStr.split("-");
   return `${day}/${month}/${year}`;
